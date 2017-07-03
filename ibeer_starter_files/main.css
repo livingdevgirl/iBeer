@@ -132,6 +132,7 @@ article{
     padding: 20px;
     margin-bottom: 20px;
 }
+
 article h2{
     line-height: 1em;
     font-weight: bold;
@@ -148,19 +149,22 @@ article time{
     margin-bottom: 30px;
     color: #666;
 }
-article, img{
+article img{
+  width: 40%;
   float:right;
+  display: flow-root;
 
 }
 article footer p{
 
-  line-height: .5em;
+  line-height: 1em;
   color: #666;
   text-align: center;
   margin: 10px 0 0px 0;
   padding: 10px 0 0px 0;
   border-top: 1px solid #ccc;
   text-transform: uppercase;
+  margin-top:  2em;
 
 }
 #site-footer{
